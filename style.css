@@ -1,0 +1,62 @@
+.root{
+    --light-gray:#7284a1;
+}
+html{
+    box-sizing:border-box ;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+.todo-section{
+    gap:2rem;
+    margin-top: 2rem;
+}
+.input-text{
+    flex-basis: 60%;
+
+}
+.todo-list-heading{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.todo-no{
+    flex-basis:5%;
+}
+.todo{
+    margin-top: 2rem;
+}
+.todo-det{
+    flex-basis:55% ;
+}
+.todo-sta{
+    flex-basis: 10%;
+}
+.todo-act{
+    flex-basis: 15%;
+}
+.todo-act button{
+    padding-top: 0.7rem;
+    padding-bottom:0.7rem ;
+}
+.todo-item{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.editbtn{
+    flex-basis: 2rem;
+    margin-right:5rem ;
+}
+.todo::first-letter{
+    color: blueviolet;
+}
+    body {
+        background-image: url('appi.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0;
+        height: 100vh;
+      }
+    
+      
